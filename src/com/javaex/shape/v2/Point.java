@@ -2,7 +2,7 @@ package com.javaex.shape.v2;
 
 //	 v4. 상속과 오버라이딩
 		
-public class Point {
+public class Point implements Drawable {
 	//	필드
 	protected int x;
 	protected int y;

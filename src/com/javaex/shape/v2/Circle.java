@@ -1,7 +1,7 @@
 package com.javaex.shape.v2;
 
-public class Circle extends Shape{ // 추상 메서드에서는 실제로 구현을 하지 않기 때문에 오류 나옴 
-	// 밑에 메서드 오버라이드 하는 순간 오류 사라짐 
+public class Circle extends Shape implements Drawable{  
+	
 	
 	// 	필드
 	protected double radius;	//	반지름
