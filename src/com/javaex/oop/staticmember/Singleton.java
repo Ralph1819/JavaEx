@@ -5,7 +5,7 @@ public class Singleton {
 	
 	private static Singleton instance = new Singleton();
 
-	//	생성자 -> new를 통해 생성이 가능한데 new를 막아줌으로써 하나의 인스턴스만..
+	//	생성자 -> 하나의 인스턴스만..
 	private Singleton() {
 		//	'private'을 통해 new 호출 불가 
 		
@@ -14,4 +14,5 @@ public class Singleton {
 	public static Singleton getInstance() {
 		return instance;
 	}
+	
 }
